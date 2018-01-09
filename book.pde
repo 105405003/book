@@ -46,7 +46,7 @@ void setup(){
   
   
   minim = new Minim(this);
-  bgm = minim.loadFile("music/bgm.mp3",1024);
+  bgm = minim.loadFile("music/bgm.mp3",256);
   bgm.play();
   bgm.loop();
   
@@ -180,7 +180,7 @@ void draw(){
     speaker = v301;
     if(speakerTimer == 1){
       speaker.play();
-    }else if(speakerTimer == 727){
+    }else if(speakerTimer == 725){
       speaker.pause();
       speaker.rewind();
       counter ++;
