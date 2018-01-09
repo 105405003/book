@@ -81,7 +81,7 @@ void draw(){
     speaker = v001;
     if(speakerTimer == 0){
       speaker.play();
-    }else if(speakerTimer == 345){
+    }else if(speakerTimer == 1000){
       speaker.pause();
       speaker.rewind();
       scene0 = scene003;
@@ -89,7 +89,7 @@ void draw(){
       speakerTimer = 0;
     }
     speakerTimer++;
-    if(speakerTimer >= 262){
+    if(speakerTimer >= 500){
       scene0 = scene003;
     }
     
@@ -366,7 +366,7 @@ void draw(){
       break;
     
   }
-  
+  println(speakerTimer);
   image(bg, 0, 0, 800, 600);
   if(pic1){
     image(s1, 0, 0, 800, 600);
