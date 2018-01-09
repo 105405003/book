@@ -377,5 +377,8 @@ void draw(){
   if(pic3){
     image(s3, 0, 0, 800, 600);
   }
+  
+  fill(0);
+  text(speakerCounter, width/2, height/2);
  
 }
