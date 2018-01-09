@@ -72,7 +72,6 @@ void draw(){
     if(mousePressed){
       if(mouseX >= 280 && mouseY >= 470 && mouseX <= 413 && mouseY <= 530){
         scene0 = scene001;
-        counter++;
         mousePressed = false;
       }
     }
@@ -81,7 +80,7 @@ void draw(){
     speaker = v001;
     if(speakerTimer == 0){
       speaker.play();
-    }else if(speakerTimer == 780){
+    }else if(speakerTimer == 960){
       speaker.pause();
       speaker.rewind();
       scene0 = scene003;
@@ -100,7 +99,7 @@ void draw(){
     speaker = v101;
     if(speakerTimer == 1){
       speaker.play();
-    }else if(speakerTimer == 242){
+    }else if(speakerTimer == 690){
       speaker.pause();
       speaker.rewind();
       counter ++;
@@ -113,7 +112,7 @@ void draw(){
     speaker = v102;
     if(speakerTimer == 1){
       speaker.play();
-    }else if(speakerTimer == 298){
+    }else if(speakerTimer == 770){
       speaker.pause();
       speaker.rewind();
       counter ++;
@@ -126,7 +125,7 @@ void draw(){
     speaker = v103;
     if(speakerTimer == 1){
       speaker.play();
-    }else if(speakerTimer == 120){
+    }else if(speakerTimer == 270){
       speaker.pause();
       speaker.rewind();
       counter ++;
