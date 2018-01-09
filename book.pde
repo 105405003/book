@@ -23,6 +23,7 @@ final int scene401 = 1, scene402 = 2;
 boolean pic1 = false, pic2 = false, pic3 = false;
 
 void setup(){
+  frameRate(60);
   size(800, 600);
   bg00 = loadImage("img/bg00.png");
   bg01 = loadImage("img/bg01.png");
