@@ -72,6 +72,7 @@ void draw(){
     if(mousePressed){
       if(mouseX >= 280 && mouseY >= 470 && mouseX <= 413 && mouseY <= 530){
         scene0 = scene001;
+        counter ++;
         mousePressed = false;
       }
     }
