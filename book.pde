@@ -113,7 +113,7 @@ void draw(){
     speaker = v102;
     if(speakerTimer == 1){
       speaker.play();
-    }else if(speakerTimer == 840){
+    }else if(speakerTimer == 830){
       speaker.pause();
       speaker.rewind();
       counter ++;
@@ -180,7 +180,7 @@ void draw(){
     speaker = v301;
     if(speakerTimer == 1){
       speaker.play();
-    }else if(speakerTimer == 750){
+    }else if(speakerTimer == 740){
       speaker.pause();
       speaker.rewind();
       counter ++;
