@@ -180,7 +180,7 @@ void draw(){
     speaker = v301;
     if(speakerTimer == 1){
       speaker.play();
-    }else if(speakerTimer == 720){
+    }else if(speakerTimer == 750){
       speaker.pause();
       speaker.rewind();
       counter ++;
@@ -193,7 +193,7 @@ void draw(){
     speaker = v302;
     if(speakerTimer == 1){
       speaker.play();
-    }else if(speakerTimer ==450){
+    }else if(speakerTimer ==440){
       speaker.pause();
       speaker.rewind();
       counter ++;
@@ -207,7 +207,7 @@ void draw(){
     speaker = v303;
     if(speakerTimer == 1){
       speaker.play();
-    }else if(speakerTimer == 450){
+    }else if(speakerTimer == 460){
       speaker.pause();
       speaker.rewind();
       counter ++;
