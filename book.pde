@@ -89,7 +89,7 @@ void draw(){
       speakerTimer = 0;
     }
     speakerTimer++;
-    if(speakerTimer >= 555){
+    if(speakerTimer >= 700){
       scene0 = scene003;
     }
     
