@@ -379,6 +379,6 @@ void draw(){
   }
   
   fill(0);
-  text(speakerCounter, width/2, height/2);
+  text(speakerTimer, width/2, height/2);
  
 }
