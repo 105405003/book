@@ -366,7 +366,6 @@ void draw(){
       break;
     
   }
-  println(speakerTimer);
   image(bg, 0, 0, 800, 600);
   if(pic1){
     image(s1, 0, 0, 800, 600);
